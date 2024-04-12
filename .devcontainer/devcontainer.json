@@ -29,7 +29,7 @@
 		}
 	  },
 	  // Forward the RStudio ports
-	  "forwardPorts": [8787],
+	  "forwardPorts": [8888],
 	  "portsAttributes": {
 		"8787": {
 			"label": "Rstudio",

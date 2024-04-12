@@ -1,8 +1,8 @@
 .{
-	  "image": "ghcr.io/eeholmes/earthdata-cloud-cookbook/cookbook:venv",
+	  "image": "ghcr.io/nmfs-opensci/container-images/vast:latest",
     // container run args for gdal netcdf vsi access
 	  "runArgs": [ "--security-opt", "seccomp=unconfined" ],
-	  "name": "NASA TOPS Environment",
+	  "name": "NMFS Open Science - VAST",
 	  "waitFor": "onCreateCommand",
 	  "features": {
 		"ghcr.io/rocker-org/devcontainer-features/quarto-cli:1": {}
